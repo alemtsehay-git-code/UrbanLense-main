@@ -96,7 +96,7 @@ export default function UrbanLensPage() {
   }, [handleCitySelect])
 
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center py-6 md:py-10 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto space-y-6">
+    <div className="min-h-screen bg-white/20 flex flex-col items-center py-6 md:py-10 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto space-y-6">
 
 
 

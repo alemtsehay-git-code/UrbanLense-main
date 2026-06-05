@@ -31,10 +31,21 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-white text-foreground;
+    background-image:
+      radial-gradient(circle, #e2e8f0 2.5px, transparent 2.5px);
+    background-size: 40px 40px;
+    background-attachment: fixed;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-headline tracking-tight;
   }
 }
@@ -52,12 +63,31 @@
 }
 
 @keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-5px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
-.animate-stagger-1 { animation-delay: 100ms; }
-.animate-stagger-2 { animation-delay: 200ms; }
-.animate-stagger-3 { animation-delay: 300ms; }
-.animate-stagger-4 { animation-delay: 400ms; }
+.animate-stagger-1 {
+  animation-delay: 100ms;
+}
+
+.animate-stagger-2 {
+  animation-delay: 200ms;
+}
+
+.animate-stagger-3 {
+  animation-delay: 300ms;
+}
+
+.animate-stagger-4 {
+  animation-delay: 400ms;
+}
